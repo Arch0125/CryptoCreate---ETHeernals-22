@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
 class Intro extends Component {
+    
     render() {
-        return (
+        return (            
             <div className="App">
                 <p>
                     <img
@@ -17,6 +18,10 @@ class Intro extends Component {
                     <span class="purpletext">Share</span> and <span class="purpletext">Support</span><br/>
                     Art with help of <span class="purpletext">Crypto</span>
                 </h1>
+
+                <div  class="container1">
+                    <label  class="intro">With CryptoCreate you can</label>
+                </div>
 
                 
             </div>
