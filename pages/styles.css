@@ -1,0 +1,71 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    color: #181818;
+    font-family: "Montserrat";
+    text-align: left;
+    padding-left: 5%;
+    font-size: 35pt;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  
+  .intro {
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 15pt;
+  }
+  
+  .purpletext {
+    color: blueviolet;
+  }
+  
+  .bold {
+    font-weight: 550;
+  }
+ 
+  .feature {
+    font-size: 15pt;
+    font-weight: 200;
+    padding-top: 1pt;
+    text-align: left;
+    padding-left: 5%;
+  }
+  
+  .header2 {
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 10pt;
+    color: #181818;
+  }
+  
+  #container {
+    text-align: center;
+  }
+  
+  
+  .container1 {
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    margin-top: 20pt;
+    background-color: rgba(137, 43, 226, 0.152);
+  }
+  .support {
+    font-size: 15pt;
+    color: #181818;
+    font-weight: 200;
+    text-align: center;
+  }
+  
+  .brand {
+    background-color: white;
+    border-width: 0pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+  }
+  

@@ -5,7 +5,8 @@
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
-    box-shadow: 5px 3px 30px rgba(137, 43, 226, 0.568);
+    box-shadow: 1px 1px 20px rgba(137, 43, 226, 0.568);
+    margin-bottom: 30px;
 }
   
   /* Style the links inside the navigation bar */
