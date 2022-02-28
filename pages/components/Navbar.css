@@ -1,0 +1,81 @@
+.topnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 3px 30px rgba(137, 43, 226, 0.568);
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: blueviolet;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navleft{
+    float: right;
+    color: blueviolet;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image{
+    float: right;
+    color: blueviolet;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-right: 5px;
+  }
+
+
+  /* From cssbuttons.io by @alexmaracinaru */
+.button {
+    cursor: pointer;
+    font-weight: 700;
+    color: azure;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: blueviolet;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+   }
+   
+   .button:hover {
+    background: rgb(100, 17, 177);
+   }
+   
+   .button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+   }
+   
+   .button:hover svg {
+    transform: translateX(5px);
+   }
+   
+   .button:active {
+    transform: scale(0.95);
+   }
+   
+   
