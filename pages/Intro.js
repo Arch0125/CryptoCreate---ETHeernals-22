@@ -21,10 +21,14 @@ class Intro extends Component {
                     <br/>
                     <label className="feature" >
                         CryptoCreate welcomes you to a new decentralized world of creators and fans
-                    </label>
-                    
-
+                    </label>                  
                 </h1>
+
+                <div class="buttoncontainer" >
+                    <button class="button1">Support your Favourite Creator 🤝</button>
+                    <button class="button1">Start Creating Content 🎉</button>                    
+                </div>
+                
 
                 <div className="container1">
                     <label  className="intro">With CryptoCreate you can</label>  
