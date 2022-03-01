@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from './components/Navbar/Navbar.js'
 import Intro from './Intro'
+import SupportPage from './SupportPage/SupportPage'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
      
       <Navbar/>
-      <Intro/>
+      <SupportPage/>
     </div>
   )
 }

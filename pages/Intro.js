@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Web3 from 'web3';
+import Navbar from './components/Navbar/Navbar';
 
 class Intro extends Component {
 
@@ -21,7 +22,7 @@ class Intro extends Component {
                     <br/>
                     <label className="feature" >
                         CryptoCreate welcomes you to a new decentralized world of creators and fans
-                    </label>                  
+                    </label>                
                 </h1>
 
                 <div className="buttoncontainer" >

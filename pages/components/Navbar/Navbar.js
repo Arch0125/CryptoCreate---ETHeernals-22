@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
 import {useEffect} from 'react';
+import Web3 from 'web3';
 
-function Navbar(){
+function Navbar(props){    
 
     useEffect(() => {
         // Web3 Browswer Detection
@@ -53,5 +54,5 @@ function Navbar(){
         );
     
 }
-
+   
 export default Navbar;
