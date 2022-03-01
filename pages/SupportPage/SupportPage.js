@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import web3 from 'web3';
 
 function SupportPage(props) {
 
@@ -7,9 +8,24 @@ function SupportPage(props) {
     const[amount,setAmount]=useState();
     const[message,setMessage]=useState();
 
+    async function onInit() {
+        await window.ethereum.enable();
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+        var account = accounts[0];
+        console.log(account)
+         window.ethereum.on('accountsChanged', function (accounts) {
+            // Time to reload your interface with accounts[0]!
+            console.log(accounts[0])
+
+           });
+    }
+
+    onInit();
+
+
     return (
         <div className='leftcont'>
-            
+           
             <div className='card'>
                 <label className='cardtitle'>Send some Love 💝</label>
                 <div className='cardform' >
@@ -43,8 +59,11 @@ function SupportPage(props) {
                     Show your support
                 </button>
             </div>
+
+
             <div className='card'>
-                <label>Support Page</label>
+                <label className='cardtitle'>Account Details</label>
+                <label></label>
             </div>
         </div>
     );
