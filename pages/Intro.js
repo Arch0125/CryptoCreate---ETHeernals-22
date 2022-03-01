@@ -24,9 +24,9 @@ class Intro extends Component {
                     </label>                  
                 </h1>
 
-                <div class="buttoncontainer" >
-                    <button class="button1">Support your Favourite Creator 🤝</button>
-                    <button class="button1">Start Creating Content 🎉</button>                    
+                <div className="buttoncontainer" >
+                    <button className="button1">Support your Favourite Creator 🤝</button>
+                    <button className="button1">Start Creating Content 🎉</button>                    
                 </div>
                 
 
