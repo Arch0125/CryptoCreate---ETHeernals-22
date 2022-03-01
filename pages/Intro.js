@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import Web3 from 'web3';
 
 class Intro extends Component {
-    
+
     render() {
         return (            
             <div classNameName="App">
